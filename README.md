@@ -1,2 +1,2 @@
 # javascript-a
-simple anvironemnt for js
+simple environment for js
