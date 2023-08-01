@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #names{
+            font-size: xx-large;
+            color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <ul id="names">
+        <li id="greet">Hello</li>
+        <li id="greatos">Akshar</li>
+        <li id="greeting">Here</li>
+    </ul>
+</body>
+<script>
+    document.querySelector('#names').addEventListener('click', function(e) {
+        console.log(e.target.tagName);
+        if(e.target.tagName === 'LI') {
+            let removeIt = e.target
+            removeIt.remove()
+        }
+    })
+</script>
+</html>
