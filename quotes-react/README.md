@@ -8,6 +8,6 @@
 
 Project one:
 
-Learning Basics about React
+Quotes App With React
 
 ```
