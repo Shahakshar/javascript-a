@@ -10,6 +10,6 @@ Project one:
 
 Quotes App With React
 
-!["Website Random Quotes"](website_demo.png)
+!["Random Quotes"](./public/website_demo.png)
 
 ```
